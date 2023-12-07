@@ -1,0 +1,23 @@
+READ baseball.csv
+Success
+  
+SELECT * FROM baseball WHERE birthMonth == 2 && birthDay == 29
+playerID,birthYear,birthMonth,birthDay,nameFirst,nameLast,weight,height,
+STRING,INT,INT,INT,STRING,STRING,INT,INT,
+appleed01,1892,2,29,Ed,Appleton,173,72,
+autryal01,1952,2,29,Al,Autry,225,77,
+concege01,1992,2,29,Gerardo,Concepcion,200,74,
+crichst01,1992,2,29,Stefan,Crichton,208,75,
+fryje01,1956,2,29,Jerry,Fry,185,72,
+houcksa01,1856,2,29,Sadie,Houck,151,67,
+longbi01,1960,2,29,Bill,Long,185,72,
+longte01,1976,2,29,Terrence,Long,190,73,
+martipe01,1904,2,29,Pepper,Martin,170,68,
+millera03,1896,2,29,Ralph,Miller,190,72,
+mingost01,1944,2,29,Steve,Mingori,165,70,
+parkero01,1896,2,29,Roy,Parker,200,75,
+pearcdi01,1836,2,29,Dickey,Pearce,161,63,
+rosenal01,1924,2,29,Al,Rosen,180,70,
+14 rows
+
+QUIT
